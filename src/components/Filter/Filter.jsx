@@ -38,7 +38,7 @@ const mapStateToProps = null
 
 const mapDispatchToProps = (dispatch) => {
     return{
-        setFilterText: (text) => dispatch(setFilter(text))
+        setFilter: (text) => dispatch(setFilter(text))
     }
 }
 
